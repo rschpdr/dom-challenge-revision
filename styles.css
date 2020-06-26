@@ -1,0 +1,11 @@
+.flex-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

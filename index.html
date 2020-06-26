@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <title>DOM Challenge</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div>
+        <div
+          id="colorful-container"
+          class="ui raised padded text container segment"
+        >
+          <p>Eu posso!</p>
+          <strong>
+            <span>Meu nome é: </span>
+          </strong>
+          <span id="name"></span>
+
+          <div class="ui hidden divider"></div>
+
+          <form class="ui form">
+            <div class="four wide field">
+              <label>Digite seu nome:</label>
+              <input id="name-input" type="text" value="" name="name" />
+            </div>
+          </form>
+
+          <div class="ui hidden divider"></div>
+
+          <div>
+            <p>Contador</p>
+            <button id="decrement" type="button" class="ui button">
+              -
+            </button>
+            <span class="counter">0</span>
+            <button id="increment" type="button" class="ui button">
+              +
+            </button>
+          </div>
+
+          <div class="ui hidden divider"></div>
+
+          <div>
+            <button id="change-color" type="button" class="ui secondary button">
+              Trocar cor
+            </button>
+            <button
+              id="change-color-gradient"
+              type="button"
+              class="ui secondary button"
+            >
+              Trocar para gradiente
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
